@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Войти</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+<body>
+  <div class="container">
+    <form action="guest-account.html" class="enter">
+      <h2 class="title wow fadeInDown">Войти</h2>
+      <p class="text wow fadeInDown" data-wow-delay="0.2s">Нет личного кабинета? <a href="registration.html" class="enter-link">Регистрация</a></p>
+      <p class="text wow fadeInDown" data-wow-delay="0.4s">Форма заполнения гостя:</p>
+      <input type="tel" name="phone" class="input input-phone wow fadeIn" data-wow-delay="0.6s" placeholder="Телефон" required>
+      <input type="password" class="input input-password wow fadeIn" data-wow-delay="0.8s" placeholder="Пароль" required>
+      <a href="guest-account.html"><button class="button enter-button wow fadeInDown" data-wow-delay="1s">Войти</button>
+      </a>
+    </form>
+    <form action="admin-account.html" class="enter">
+      <p class="text wow fadeInDown" data-wow-delay="1.2s">Форма заполнения администратора:</p>
+      <input type="tel" name="phone" class="input input-phone wow fadeIn" data-wow-delay="1.6s" placeholder="Телефон" required>
+      <input type="password" class="input input-password wow fadeIn" data-wow-delay="1.8s" placeholder="Пароль" required>
+      <a href="admin-account.html"><button class="button enter-button wow fadeInDown" data-wow-delay="2s">Войти</button>
+      </a>
+    </form>
+  </div>
+  <script src="js/wow.min.js" type="text/javascript"></script>
+  <script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>
